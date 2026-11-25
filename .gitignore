@@ -1,0 +1,16 @@
+# Secrets & Cryptographic Keys
+.env
+keys/*.pem
+serviceAccountKey.json
+
+# Python & Virtual Environments
+__pycache__/
+*.py[cod]
+venv/
+env/
+
+# Temporary Uploads & Generated PDFs
+uploads/*
+static/pdfs/*
+!uploads/.gitkeep
+!static/pdfs/.gitkeep
